@@ -2,26 +2,24 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-//Aula 03 - Variáveis Locais
-
-public class Variaveis: MonoBehaviour
+public class Aula03 : MonoBehaviour
 {
-    int lifePlayer = 10, atackEnemy = 5;
-    float jumpForce = 5.5f;
-    bool mortePlayer = false;
-    string namePlayer = 'MrThinRazor';
+    // Conversão de dados
+
+        int coletaMoeda = 10;
+        float dinheiro = 10.2f;
+        bool duvida = false;
+        string texto = "alguma coisa";
 
     void Start()
     {
-        print(namePlayer);
-        namePlayer = 'MrSamme'
-        string nameEnemy;
-        nameEnemy = 'MrKakushi';
+        coletaMoeda = (int)dinheiro;
+        texto = dinheiro.ToString();
+
+        print(texto);
     }
     void Update()
     {
-        print(namePlayer);
-        namePlayer = 'MrKazukeSudo'
-        //nameEnemy = 'MrHiroku'
+        
     }
 }

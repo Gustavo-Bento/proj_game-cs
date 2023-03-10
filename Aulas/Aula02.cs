@@ -2,22 +2,26 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-//Aula 02 - Metodos start e update
-
-public class Variaveis: MonoBehaviour
+public class Aula02 : MonoBehaviour
 {
-    int lifePlayer = 10, atackEnemy = 5;
-    float jumpForce = 5.5f;
-    bool mortePlayer = false;
-    string namePlayer = 'MrThinRazor';
+    // Comentario
+
+    /*
+    Tudo aqui dentro é comentario
+    podemos pular linhas sem problemas
+    */
+
+        int coletaMoeda = 10;
+        float dinheiro = 10.2f;
+        bool duvida = false;
+        string texto = "alguma coisa";
 
     void Start()
     {
-        print(namePlayer);
-        print(lifePlayer);
+        print(texto);
     }
     void Update()
     {
-        //remova e cola aqui
+        
     }
 }

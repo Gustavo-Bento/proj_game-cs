@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Aula07 : MonoBehaviour
+public class Aula08 : MonoBehaviour
 {
     // Operadores relacionais;
 
@@ -19,12 +19,17 @@ public class Aula07 : MonoBehaviour
 
     void Start()
     {
-        print(n1==n2);
-        print(n1!=n2);
-        print(n1>n2);
-        print(n1<n2);
-        print(n1>=n2);
-        print(n1<=n2);
+        //AND = E
+        //OR = OU
+        //NOT = NÃO
+        //XOR
+
+        print(n1==n2&&n1!=n2);
+        print(n1!=n2!&n1==n2);
+        print(n1!=n2&n1==n2);
+        print(n1!=n2^n1==n2);
+        print(n1>n2||n1<n2);
+        print(n1>=n2!^n1<=n2);
     }
     void Update()
     {

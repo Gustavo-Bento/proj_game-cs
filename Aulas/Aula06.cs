@@ -2,19 +2,23 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-//Aula 05 - Contador, incremento, decremento e contador de tempo
-
-public class Variaveis: MonoBehaviour
+public class Aula06 : MonoBehaviour
 {
-    float tempo;
+    // Operadores reduzidos
+
+        int n1,n2,n3,res;
+
     void Start()
     {
-        
+        n1 = 10;
+        print(n1);
+        n1 /= 2;
+        print(n1);
+        n1 *= 3;
+        print(n1);
     }
     void Update()
     {
-        tempo = tempo + Time.deltaTime;
-        Debug.Log(tempo);
+        
     }
-
 }

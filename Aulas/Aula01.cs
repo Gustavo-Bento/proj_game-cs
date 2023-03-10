@@ -2,22 +2,20 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-//Aula 01 - Introdução a Variaveis
-
-public class Variaveis: MonoBehaviour
+public class Aula01 : MonoBehaviour
 {
-    int lifePlayer = 10, atackEnemy = 5;
-    float jumpForce = 5.5f;
-    bool mortePlayer = false;
-    string namePlayer = 'MrThinRazor';
+    // Variáveis
+        int coletaMoeda = 10;
+        float dinheiro = 10.2f;
+        bool duvida = false;
+        string texto = "alguma coisa";
 
     void Start()
     {
-        print(namePlayer);
-        print(lifePlayer);
+        print(dinheiro);
     }
     void Update()
     {
-
+        
     }
 }

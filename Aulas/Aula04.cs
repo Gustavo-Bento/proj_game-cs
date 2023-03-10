@@ -2,29 +2,24 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-//Aula 04 - Criando novos metodos
-
-public class Variaveis: MonoBehaviour
+public class Aula04 : MonoBehaviour
 {
+    // Operadores Aritméticos
+
+        int n1,n2,n3,res;
+
     void Start()
     {
         n1 = 10;
-        n2 = 20;
-        Soma();
-        Mult(n1,n2);
+        n2 = 21;
+        n3 = 2;
+
+        res=(n1+n2)*n3;
+
+        print(res);
     }
     void Update()
     {
-
-    }
-    void Soma()
-    {
-        int res = n1 + n2;
-        Debug.Log(res);
-    }
-    void Mult(int x,int y)
-    {
-        int res = x * y;
-        Debug.Log(res);
+        
     }
 }
