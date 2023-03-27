@@ -4,16 +4,7 @@ using UnityEngine;
 
 public class Aula08 : MonoBehaviour
 {
-    // Operadores relacionais;
-
-        /*
-            == igual
-            != diferente
-            > maior que
-            < menor que
-            >= maior ou igual a
-            <= menor ou igual a
-        */
+    // Aula 08 - Operadores lógicos
 
         int n1=10, n2=20;
 
