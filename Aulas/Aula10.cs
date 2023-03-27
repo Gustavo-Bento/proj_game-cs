@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Aula10 : MonoBehaviour
 {
-    // Operadores ternariosS
+    // Aula 10 - Operadores ternariosS
 
     int moedasHeroi = 80;
     int valorVida = 100;
