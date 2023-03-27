@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Aula09 : MonoBehaviour
 {
+    //Aula 09 - If else
+
     int moedasHeroi = 80;
     int valorVida = 100;
 
