@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Aula01 : MonoBehaviour
 {
-    // Aula 01 -Variáveis
+    // Aula 01 - Variáveis
 
     int coletaMoeda = 10;
     float dinheiro = 10.2f;
