@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Aula06 : MonoBehaviour
 {
-    // Operadores reduzidos
+    // Aula 06 - Operadores reduzidos
 
         int n1,n2,n3,res;
 
