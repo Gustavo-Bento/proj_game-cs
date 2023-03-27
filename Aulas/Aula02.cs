@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Aula02 : MonoBehaviour
 {
+    //Aula 02 - Saida e comentário
+
     // Comentario
 
     /*
