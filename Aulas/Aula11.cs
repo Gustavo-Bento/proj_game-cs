@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Aula11 : MonoBehaviour
 {
-    // Switch Case
+    // Aula 11 - Switch Case
 
     int estados = 3;
 
