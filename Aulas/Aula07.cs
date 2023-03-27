@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Aula07 : MonoBehaviour
 {
-    // Operadores relacionais;
+    // Aula 07 - Operadores relacionais
 
         /*
             == igual
